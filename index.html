@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Todo</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="main.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 header-top">
+        <button type="button" class="btn btn-light all-items">Показать все записи</button>
+        <button type="button" class="btn btn-warning show-importants">Важные</button>
+        <button type="button" class="btn btn btn-info all-completed">Оставшееся</button>
+      </div>
+
+      <div class='col-12 flex search'>
+        <input type="text" class="form-control col-10  searchInp">
+        <button type="button" class="btn btn-primary col-2 searchBtn">Поиск</button>
+      </div>
+
+      <div class='col-12 flex'>
+        <button type="button" class="btn btn-primary col-3 add-item">Добавить</button>
+        <input type="text" class="form-control col-9 inp-text">
+      </div>
+
+      <div class="col-12">
+          <table class="table">
+            <tbody class="tdBody">
+              <!--
+                <tr>
+                  <td><b class="item">Понравился фильм?</b></td>
+                  <td><button type="button" class="btn btn-success">Важные</button></td>
+                  <td><button type="button" class="btn btn-danger">Удалить</button></td>
+                </tr>
+              -->
+              
+
+            </tbody>
+          </table>
+      </div> 
+
+    </div>
+  </div>
+  
+ 
+
+  <script src="scripts/components/renderCart.js"></script>
+  <script src="scripts/components/localStorFunc.js"></script>
+
+  <script src="scripts/components/addItem.js"></script>
+  <script src="scripts/components/delItem.js"></script>
+
+  <script src="scripts/components/completItem.js"></script>
+  <script src="scripts/components/importItems.js"></script>
+
+  <script src="scripts/components/filter/allitemShow.js"></script>
+  <script src="scripts/components/filter/important.js"></script>
+  <script src="scripts/components/filter/notCompleted.js"></script>
+  <script src="scripts/components/search.js"></script>
+
+  <script src="scripts/app.js"></script>
+
+
+</body>
+</html>

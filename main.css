@@ -1,0 +1,30 @@
+.active {
+   color: rgb(54, 187, 42);
+}
+
+.completed {
+   cursor: pointer;
+}
+
+.flex {
+   display: flex;
+}
+
+.header-top {
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.item-important {
+   color: red;
+}
+
+.item-completed {
+   color: rgba(0, 0, 0, 0.356);
+   text-decoration:line-through
+}
+
+
+.search {
+   margin-bottom: 20px;
+}
